@@ -1,0 +1,23 @@
+@import url("../../../../../src/Css/Libs/Bootstrap.css");
+html,body {
+    height: 100%;
+}
+body {
+    background-color:#f0f0f1;
+    color: #484848;
+    font-family: "shabnam-light";
+    direction: rtl ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#root {
+    width: 90%;
+    align-self: center ;
+}
+#countDown {
+    font-size: 35px ;
+    direction: ltr;
+    text-align: center;
+}
